@@ -1,0 +1,82 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 16px;
+    box-sizing: content-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+    width: 90vw;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+.card:hover {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.bg-profile {
+    background-color: #008a8a4d;
+    color: #008a8a;
+}
+.bg-interests {
+    background-color: #6494ed4d;
+    color: #6494ed;
+}
+.bg-learn {
+    background-color: #9932cc4d;
+    color: #9932cc;
+}
+.bg-expectations {
+    background-color: #b222224f;
+    color: #b22222 ;
+}
+.bg-hobbies {
+    background-color: #228b224f;
+    color: #228b22;
+}
+
+
+p {
+    font-size: 2rem;
+}
+ul li {
+    font-size: 2rem;
+}
+
+.col-12 {
+    width: 100%;
+}
+.mg-btm {
+    margin-bottom: 10px;
+}
+
+/* ===========================extra small devices => 576px=============================== */
+
+@media (min-width: 576px) {
+
+    .col-sm-4 {
+        width: 33.33%;
+
+    }
+
+}
